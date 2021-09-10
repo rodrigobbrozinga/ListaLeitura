@@ -52,15 +52,17 @@ namespace Alura.ListaLeitura.App
 
         private Task ExibeFormulario(HttpContext context)
         {
-            var html = @"
-                <html>
-                    <form action='/Cadastro/Incluir'>
-                        <input name='titulo'/>
-                        <input name='autor'/>
-                        <button>Gravar</button>
-                    </form>
-                </html>";
+            var html = CarregaArquivoHTML("formulario");
             return context.Response.WriteAsync(html);
+        }
+
+        private string CarregaArquivoHTML(string nomeArquivo)
+        {
+            var nomeCompletoArquivo = $"HTML/{nomeArquivo}.html";
+            using (var arquivo = File.OpenText(nomeCompletoArquivo))
+            {
+                return arquivo.ReadToEnd();
+            }
         }
 
         public Task ExibeDetalhes(HttpContext context)

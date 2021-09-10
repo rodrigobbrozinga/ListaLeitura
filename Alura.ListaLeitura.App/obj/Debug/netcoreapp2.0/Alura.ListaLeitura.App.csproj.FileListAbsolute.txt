@@ -11,3 +11,4 @@ C:\Users\bots_\Documents\Cursos .NET\Alura.ListaLeitura\Alura.ListaLeitura.App\o
 C:\Users\bots_\Documents\Cursos .NET\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
 C:\Users\bots_\Documents\Cursos .NET\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.genruntimeconfig.cache
 C:\Users\bots_\Documents\Cursos .NET\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Repositorio\livros.csv
+C:\Users\bots_\Documents\Cursos .NET\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\formulario.html
